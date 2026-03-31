@@ -1,0 +1,20 @@
+# ZJ_AiDataProxy Server Dependencies
+# Main web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Database
+aiosqlite>=0.19.0
+
+# Data validation
+pydantic>=2.4.0
+pydantic-settings>=2.0.3
+
+# Authentication
+pyjwt>=2.8.0
+
+# File upload support
+python-multipart>=0.0.6
+
+# Testing (optional)
+requests>=2.31.0
